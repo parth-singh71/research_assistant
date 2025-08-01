@@ -70,7 +70,7 @@ LangGraph is used to build this pipeline with asynchronous, state-aware transiti
 | API Layer       | FastAPI                            | High-performance REST APIs              |
 | CLI Interface   | `argparse` + `asyncio`             | Script-based usage for quick testing    |
 
-## 🧾 Schema Definitions
+## Schema Definitions
 
 ### ResearchStep
 
@@ -136,7 +136,7 @@ class ResearchGraphState(TypedDict):
     final_brief: Optional[FinalBrief] = None
 ```
 
-## 🚀 Deployment Instructions
+## Deployment Instructions
 
 ### 1. Clone & Set Up Virtual Environment
 
@@ -184,7 +184,7 @@ fastapi dev app/main.py
 python3 -m app.cli --topic "can ai replace humans in next 5 years?" --depth 1 --userid ps189
 ```
 
-## 🧪 Example Input & Output
+## Example Input & Output
 
 ### CLI Input
 
